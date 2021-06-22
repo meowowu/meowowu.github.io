@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rabwine</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="icon" href="/icon.ico" type="image">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo"><img src="rabwine.jpg" height="54px" width="159px">
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="index.html">About</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact us</a>
+        </div>
+        <div class="search">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!--   -漢堡選單--->
+    <div class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="menu-box">
+        <a href="index.html">Home</a><br>
+        <a href="index.html">About</a><br>
+        <a href="shop.html">Shop</a><br>
+        <a href="contact.html">Contact us</a><br>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+
+    <script>
+        $(".menu-btn").click(function() {
+            $(".menu-box").toggleClass("active");
+            $(this).toggleClass("active");
+        });
+    </script>
+    <!--    -漢堡選單--->
+
+
+    <div class="wine1">
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-5 col-md-6">
+                    <img src="pro8.jpg">
+                </div>
+                <div class="col-5 col-lg-5">
+                    <h2>Peach wine</h2><br>
+                    <h3>$5,000</h3><br><br>
+                    <h5>Umenozuku series of peach wine, carefully selected Wakayama white peaches, extracted 40% of the original juice, and Umenozuku sake blended into a bottle, the juice of the peaches and the sweetness of the flesh.</h5><br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        BUY NOW!
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="false">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Success!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Add to cart!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ok</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h4>Rabwine Copyright © 2021</h4>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+</body></html>
